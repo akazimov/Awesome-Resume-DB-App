@@ -9,8 +9,8 @@ public class AbstractDAO {
             //Class.forName("com.mysql.jdbc.Driver");
 
             String url = "jdbc:mysql://localhost:3306/resume";
-            String username = "root";
-            String password = "12345678";
+            String username = "********";
+            String password = "********";
             return DriverManager.getConnection(url,username,password);
         }
         catch (Exception e) {
