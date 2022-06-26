@@ -52,7 +52,7 @@ public class SkillDaoImpl extends AbstractDAO implements SkillDaoInter {
 
     private Skill getSkill(ResultSet rs) throws Exception {
         int id = rs.getInt("id");
-        String name = rs.getString("skill_ame");
+        String name = rs.getString("skill_name");
         return new Skill(id,name);
     }
 
